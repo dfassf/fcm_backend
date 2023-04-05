@@ -23,6 +23,7 @@ sequelize.sync({ force: false, })
     });
 
 app.use('/',router);
+
 app.listen(PORT,()=>{
     console.log(`server listening on port ${PORT}`)
 })
